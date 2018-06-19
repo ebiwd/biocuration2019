@@ -1,0 +1,22 @@
+uuid: 0fdefbb9-31b6-49df-945b-eeb3182bf25b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ebi_framework
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: ebi_framework_messages
+theme: ebi_framework
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

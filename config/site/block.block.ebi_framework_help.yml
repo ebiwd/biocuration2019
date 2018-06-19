@@ -1,0 +1,22 @@
+uuid: f552c28b-2b3c-4e55-8d21-4c6ab62c55df
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ebi_framework
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ebi_framework_help
+theme: ebi_framework
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

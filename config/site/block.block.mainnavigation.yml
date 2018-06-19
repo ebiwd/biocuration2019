@@ -1,0 +1,24 @@
+uuid: 93809c5b-93e2-461f-bc31-67fca3c6e55d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ebi_framework
+id: mainnavigation
+theme: ebi_framework
+region: main_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

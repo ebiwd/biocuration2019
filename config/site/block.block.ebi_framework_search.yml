@@ -1,0 +1,22 @@
+uuid: 3b1755dd-e7cf-4fc7-a2f7-39257f8fd2c1
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - ebi_framework
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: ebi_framework_search
+theme: ebi_framework
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

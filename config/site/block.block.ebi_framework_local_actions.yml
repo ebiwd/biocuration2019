@@ -1,0 +1,20 @@
+uuid: 724c8251-fc12-429a-b2e6-34f68a98d5dc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ebi_framework
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ebi_framework_local_actions
+theme: ebi_framework
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

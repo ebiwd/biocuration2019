@@ -1,0 +1,15 @@
+uuid: f90a7ff4-f9e3-4799-ab67-6e9d5631297e
+langcode: en
+status: true
+dependencies: {  }
+name: sponsors_logos
+label: 'Sponsors Logos'
+effects:
+  6d958830-f206-490a-b61e-ab8df19f3dc4:
+    uuid: 6d958830-f206-490a-b61e-ab8df19f3dc4
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      upscale: true

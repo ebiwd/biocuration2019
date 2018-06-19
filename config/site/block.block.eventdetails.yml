@@ -1,0 +1,25 @@
+uuid: 9c631b08-0ec8-4542-aa62-469a3c854a70
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:07784960-403f-4802-8082-411fce515749'
+  module:
+    - block_content
+  theme:
+    - biocuration
+id: eventdetails
+theme: biocuration
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:07784960-403f-4802-8082-411fce515749'
+settings:
+  id: 'block_content:07784960-403f-4802-8082-411fce515749'
+  label: 'Event details'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

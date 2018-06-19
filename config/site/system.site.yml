@@ -1,0 +1,15 @@
+uuid: 035a85a4-8b93-46a9-b721-f0848a663139
+name: 'Biocuration 2019'
+mail: info@biocuration2019.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

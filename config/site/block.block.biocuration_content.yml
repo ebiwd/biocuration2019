@@ -1,0 +1,22 @@
+uuid: 76571e84-4e03-4e31-9428-8c6b4fbab7c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - biocuration
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: biocuration_content
+theme: biocuration
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

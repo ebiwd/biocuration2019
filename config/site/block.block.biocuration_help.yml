@@ -1,0 +1,22 @@
+uuid: 5da2992b-8dad-483c-840f-8c685872c286
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - biocuration
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: biocuration_help
+theme: biocuration
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

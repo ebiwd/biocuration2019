@@ -1,0 +1,18 @@
+uuid: d20f1660-cf5c-46cb-a0d8-1757530bd7a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sponsors
+id: node.sponsors.title
+field_name: title
+entity_type: node
+bundle: sponsors
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 3b7a6792-d2a8-4dda-b89c-df4a7d27feee
+langcode: en
+status: true
+dependencies:
+  theme:
+    - biocuration
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: biocuration_local_tasks
+theme: biocuration
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

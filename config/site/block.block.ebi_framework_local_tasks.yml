@@ -1,0 +1,22 @@
+uuid: 0003a9cd-bc06-4db3-8951-4caca05a627f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ebi_framework
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: ebi_framework_local_tasks
+theme: ebi_framework
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

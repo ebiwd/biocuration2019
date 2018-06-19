@@ -1,0 +1,82 @@
+uuid: 113079c7-8f2d-4ddf-a342-c394dbf9bb7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.home
+    - views.view.sponsors
+  content:
+    - 'block_content:basic:41284f1a-8133-4366-9f5f-701b3ecbcb5d'
+    - 'block_content:basic:8041d655-4b96-452f-8673-b5a2d8b2a5ca'
+    - 'block_content:basic:cbb5f23c-0c57-440f-9df9-69e013bed862'
+  module:
+    - block_content
+    - panels
+    - views
+id: home-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    b7f9a7ea-ff4d-4024-8b82-7e8ae0dda9cb:
+      id: 'block_content:cbb5f23c-0c57-440f-9df9-69e013bed862'
+      label: 'About the Event'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: -1
+      uuid: b7f9a7ea-ff4d-4024-8b82-7e8ae0dda9cb
+      context_mapping: {  }
+    e6da2f81-a222-4e5e-83a5-738e4c4ef9f6:
+      id: 'block_content:8041d655-4b96-452f-8673-b5a2d8b2a5ca'
+      label: Timeline
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 0
+      uuid: e6da2f81-a222-4e5e-83a5-738e4c4ef9f6
+      context_mapping: {  }
+    6da9ab5d-47d3-4fbc-94e5-e1cc5bbf455b:
+      id: 'views_block:sponsors-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: 6da9ab5d-47d3-4fbc-94e5-e1cc5bbf455b
+      context_mapping: {  }
+    ffc7a4f4-4876-4fae-b435-2831b40f8de9:
+      id: 'block_content:41284f1a-8133-4366-9f5f-701b3ecbcb5d'
+      label: 'Register Event'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 2
+      uuid: ffc7a4f4-4876-4fae-b435-2831b40f8de9
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 44d10e55-3eec-4b85-8d23-cbd2d48851d2
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: home-panels_variant-0
+  builder: standard
+page: home
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
