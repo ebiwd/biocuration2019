@@ -1,4 +1,4 @@
-<div id="masthead" class="background-image-header masthead sticky is-anchored is-at-top" style="background: url('{{ header_background_images[0] }}') no-repeat center;">
+<div id="masthead" class="background-image-header masthead sticky is-anchored is-at-top" style="background: url('{{ header_background_images[0] }}') no-repeat center;     background-size: 100% auto;">
     <div class="masthead-inner">
         <div class="row">
             <!-- local-title -->
@@ -12,7 +12,7 @@
             <!-- /local-title -->
             <div class="column medium-8 no-horz-padding hidden small-4" id="main-menu-wrapper">
                 <!-- local-nav -->
-                <nav>
+                <nav class="hide-for-small-only">
                     {% if page.main_menu %}
                         {{ page.main_menu }}
                     {% endif %}
@@ -45,6 +45,10 @@
                 <!-- /local-nav -->
             </div>
 
+            {# Mobile Menu #}
+            <div class="columns small-4 show-for-small-only padding-vertical-15 text-center">
+              <a class="menu-toggle"><i class="icon icon-functional" data-icon="M" data-toggle data-responsive-toggle="expand-menu"></i></a>
+            </div>
             {% if page.header %}
                 <div class="column small-12 region-header">
                     {{ page.header }}

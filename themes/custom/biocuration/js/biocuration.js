@@ -20,6 +20,15 @@
 
       // Show menu after page load.
       jQuery("#main-menu-wrapper").removeClass("hidden");
+
+      // Toggle Menu.
+      jQuery("[data-responsive-toggle]").once().click(function () {
+        var targetMenuClass =  $(this).attr("data-responsive-toggle");
+        console.log(targetMenuClass);
+        console.log(jQuery("[class*='" + targetMenuClass + "']"));
+        // Add class "open" to the target menu.
+        jQuery("[class*='" + targetMenuClass + "']").toggleClass("open");
+      });
     }
   };
 

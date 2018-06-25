@@ -37,3 +37,6 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
+
+themes/custom/ebi_framework
+*/node_modules/*

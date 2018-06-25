@@ -67,6 +67,19 @@
             {{ page.right_off_canvas }}
         </aside>
 
+
+        <div class="expand-menu show-for-small-only">
+            <div class="columns small-12 full-height close-wrapper text-center padding-vertical-15">
+                <a>
+                    <i class="icon icon-functional" data-icon="x" data-responsive-toggle="expand-menu"></i>
+                </a>
+            </div>
+
+            <div class="columns small-12 background-color-primary full-height">
+                <dd>{{ drupal_menu('main') }}</dd>
+            </div>
+        </div>
+
         {% if page.meta_header %}
             {% if meta_header_grid %}
                 <div class="row">

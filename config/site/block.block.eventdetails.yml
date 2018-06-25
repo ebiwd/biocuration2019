@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:basic:07784960-403f-4802-8082-411fce515749'
   module:
     - block_content
+    - system
   theme:
     - biocuration
 id: eventdetails
@@ -22,4 +23,9 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
