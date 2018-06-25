@@ -290,7 +290,7 @@ a.menu-toggle {
 
 @media only screen and (max-width: 40em) {
   #masthead.background-image-header {
-    background-size: auto 100% !important; }
+    background-size: auto 120% !important; }
   .path-frontpage #masthead.background-image-header {
     height: 500px; }
   .region-header .event-date {
