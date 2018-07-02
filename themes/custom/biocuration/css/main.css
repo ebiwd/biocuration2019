@@ -72,7 +72,6 @@ main#main {
   -ms-transform: translate(-50%);
       transform: translate(-50%);
   z-index: 1;
-  text-transform: uppercase;
   text-align: center; }
   .region-header .event-date {
     font-size: 5rem; }
