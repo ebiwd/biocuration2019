@@ -12,7 +12,7 @@
             <!-- /local-title -->
             <div class="column medium-8 no-horz-padding hidden small-4" id="main-menu-wrapper">
                 <!-- local-nav -->
-                <nav class="hide-for-small-only">
+                <nav class="show-for-large-up">
                     {% if page.main_menu %}
                         {{ page.main_menu }}
                     {% endif %}
@@ -46,8 +46,8 @@
             </div>
 
             {# Mobile Menu #}
-            <div class="columns small-4 show-for-small-only padding-vertical-15 text-center">
-              <a class="menu-toggle"><i class="icon icon-functional" data-icon="M" data-toggle data-responsive-toggle="expand-menu"></i></a>
+            <div class="columns small-4 hide-for-large-only padding-vertical-15 text-center float-right">
+              <a class="menu-toggle"><i class="icon icon-functional" data-icon="M" data-toggle data-hide-for="large" data-responsive-toggle="expand-menu"></i></a>
             </div>
             {% if page.header %}
                 <div class="column small-12 region-header">

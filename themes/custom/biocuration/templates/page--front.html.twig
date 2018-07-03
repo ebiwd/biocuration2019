@@ -68,10 +68,10 @@
         </aside>
 
 
-        <div class="expand-menu show-for-small-only">
+        <div class="expand-menu hide-for-large-up">
             <div class="columns small-12 full-height close-wrapper text-center padding-vertical-15">
                 <a>
-                    <i class="icon icon-functional" data-icon="x" data-responsive-toggle="expand-menu"></i>
+                    <i class="icon icon-functional" data-icon="x" data-hide-for="large" data-responsive-toggle="expand-menu"></i>
                 </a>
             </div>
 
@@ -154,7 +154,7 @@
                 </div>
             {% endif %}
             {% if show_account_info %}
-                <div class="show-for-small">
+                <div class="hide-for-large-only">
                     <div class="six mobile-two columns">
                         <p>
                             <a href="{{ path('user.login') }}" class="radius button">{{ 'Login'|t }}</a>

@@ -1,42 +1,20 @@
-@media only screen and (max-width: 40em) {
-  #masthead.background-image-header {
+@media only screen and (max-width: 1190px) {
+  .path-frontpage #masthead.background-image-header,
+  .event-register {
     background-size: auto 120% !important;
   }
 
-  .path-frontpage #masthead.background-image-header {
-    height: 500px;
+  body:not(.path-frontpage) #masthead.background-image-header {
+    background-size: 100% auto !important;
   }
 
-
-  .region-header {
-    .event-date {
-      font-size: 3rem;
-      line-height: 3rem;
-    }
-    .event-location {
-      font-size: 1.5rem;
-    }
+  .dropdown.menu li a {
+    padding: 0.7rem .5rem;
+    font-size: 1rem;
   }
+}
 
-  .event-register {
-    background-size: auto 100%;
-    padding: 100px 0;
-  }
-
-  .about-event-items .columns {
-    margin-bottom: 35px;
-  }
-
-  .event-timeline {
-    padding: 0 25px;
-  }
-
-  .small-horz-padding-25 {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-
+@media only screen and (max-width: 64em) {
   .off-canvas-wrap .menu {
     li {
       display: block;

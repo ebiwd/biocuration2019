@@ -330,3 +330,38 @@ a.menu-toggle {
     position: relative;
     border: none;
     padding: 10px 0; } }
+
+@media only screen and (max-width: 1190px) {
+  .path-frontpage #masthead.background-image-header,
+  .event-register {
+    background-size: auto 120% !important; }
+  body:not(.path-frontpage) #masthead.background-image-header {
+    background-size: 100% auto !important; }
+  .dropdown.menu li a {
+    padding: 0.7rem .5rem;
+    font-size: 1rem; } }
+
+@media only screen and (max-width: 64em) {
+  .off-canvas-wrap .menu li {
+    display: block; }
+    .off-canvas-wrap .menu li.has-dropdown > a::after {
+      content: '>' !important;
+      font-family: 'EBI-Functional';
+      font-size: 1rem;
+      border: none;
+      right: 10px !important;
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+      top: 25%;
+      width: auto;
+      height: auto; }
+    .off-canvas-wrap .menu li.has-dropdown.is-active a::after {
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+      right: -5px !important; }
+    .off-canvas-wrap .menu li.has-dropdown.is-active ul.menu {
+      display: block; }
+  .off-canvas-wrap .menu.dropdown.menu > li.opens-right > .is-dropdown-submenu {
+    position: relative;
+    border: none;
+    padding: 10px 0; } }
