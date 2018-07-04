@@ -82,7 +82,7 @@ main#main {
       background: $menuItemHover;
     }
 
-    &.is-active a {
+    &.is-active > a {
       background: $menuItemHover;
       color: $white;
     }

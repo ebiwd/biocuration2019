@@ -58,7 +58,7 @@ main#main {
   #main-menu-wrapper nav ul.menu li a:active,
   #main-menu-wrapper nav ul.menu li a.is-active {
     background: rgba(34, 34, 34, 0.72); }
-  #main-menu-wrapper nav ul.menu li.is-active a {
+  #main-menu-wrapper nav ul.menu li.is-active > a {
     background: rgba(34, 34, 34, 0.72);
     color: #fff; }
 
