@@ -25,6 +25,10 @@
 .path-frontpage #masthead.background-image-header {
   height: 550px; }
 
+#masthead.background-image-header {
+  position: relative;
+  z-index: 2; }
+
 main#main {
   padding: 25px 10px; }
 
