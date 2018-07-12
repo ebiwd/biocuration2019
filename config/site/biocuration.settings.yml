@@ -3,9 +3,12 @@ features:
   comment_user_picture: 1
   favicon: 1
 logo:
-  use_default: 1
+  use_default: 0
+  path: themes/custom/biocuration/logo.png
 favicon:
-  use_default: 1
+  use_default: 0
+  path: themes/custom/biocuration/favicon.png
+  mimetype: image/png
 zurb_foundation_status_in_reveal: 0
 zurb_foundation_use_respondjs: 0
 zurb_foundation_meta_header_grid: 0

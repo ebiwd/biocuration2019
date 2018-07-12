@@ -19,6 +19,7 @@
 
     .masthead-inner {
       background-color: transparent;
+      color: $primaryGreen;
 
       &::after {
         content: " ";
@@ -79,11 +80,12 @@ main#main {
     a:focus,
     a:active,
     a.is-active {
-      background: $menuItemHover;
+      background: $primaryGreen;
+      color: $white;
     }
 
     &.is-active > a {
-      background: $menuItemHover;
+      background: $primaryGreen;
       color: $white;
     }
   }
@@ -343,7 +345,7 @@ h3.block-title {
 
   &,
   h3.block-title {
-    color: $white;
+    color: $primaryGreen;
   }
 
   .join-description {
@@ -400,10 +402,26 @@ h3.block-title {
   }
 }
 
-a.menu-toggle {
+.masthead-inner a.menu-toggle {
   position: relative;
   z-index: 1;
   text-decoration: none;
   font-size: 2rem;
   border: none;
+  color: $primaryGreen;
+}
+
+#masthead ul li.is-active a,
+#masthead ul li a:hover,
+#masthead nav ul li a.hover,
+#masthead nav ul li a:hover {
+  background: $primaryGreen;
+}
+
+#main-menu-wrapper nav > ul.menu > li > a {
+  background: rgba(51, 51, 51, 0.7);
+}
+
+div#local-title {
+  margin-top: -1rem;
 }

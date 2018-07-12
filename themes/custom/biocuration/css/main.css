@@ -12,11 +12,12 @@
   position: relative;
   height: 200px; }
   #masthead.background-image-header .masthead-inner {
-    background-color: transparent; }
+    background-color: transparent;
+    color: #1b5958; }
     #masthead.background-image-header .masthead-inner::after {
       content: " ";
       position: absolute;
-      background-color: rgba(0, 0, 0, 0.43);
+      background-color: rgba(255, 255, 255, 0.58);
       top: 0;
       bottom: 0;
       left: 0;
@@ -57,9 +58,10 @@ main#main {
   #main-menu-wrapper nav ul.menu li a:focus,
   #main-menu-wrapper nav ul.menu li a:active,
   #main-menu-wrapper nav ul.menu li a.is-active {
-    background: rgba(34, 34, 34, 0.72); }
+    background: #1b5958;
+    color: #fff; }
   #main-menu-wrapper nav ul.menu li.is-active > a {
-    background: rgba(34, 34, 34, 0.72);
+    background: #1b5958;
     color: #fff; }
 
 #main-menu-wrapper nav .dropdown.menu > li.opens-right > .is-dropdown-submenu {
@@ -220,7 +222,7 @@ h3.block-title {
   text-align: center;
   margin: 40px 0; }
   .more-link a {
-    background: #017c82;
+    background: #1b5958;
     color: #fff;
     padding: 15px;
     border: none;
@@ -248,7 +250,7 @@ h3.block-title {
   margin-top: 25px; }
   .event-register,
   .event-register h3.block-title {
-    color: #fff; }
+    color: #1b5958; }
   .event-register .join-description {
     font-size: 1.5rem;
     margin: 25px 0; }
@@ -258,7 +260,7 @@ h3.block-title {
   .event-register::after {
     content: " ";
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.43);
+    background-color: rgba(255, 255, 255, 0.58);
     top: 0;
     bottom: 0;
     left: 0;
@@ -281,15 +283,28 @@ div.expand-menu {
   div.expand-menu .close-wrapper {
     margin-top: 50px; }
     div.expand-menu .close-wrapper a {
-      color: #017c82;
+      color: #1b5958;
       font-size: 1.3rem; }
 
-a.menu-toggle {
+.masthead-inner a.menu-toggle {
   position: relative;
   z-index: 1;
   text-decoration: none;
   font-size: 2rem;
-  border: none; }
+  border: none;
+  color: #1b5958; }
+
+#masthead ul li.is-active a,
+#masthead ul li a:hover,
+#masthead nav ul li a.hover,
+#masthead nav ul li a:hover {
+  background: #1b5958; }
+
+#main-menu-wrapper nav > ul.menu > li > a {
+  background: rgba(51, 51, 51, 0.7); }
+
+div#local-title {
+  margin-top: -1rem; }
 
 @media only screen and (max-width: 40em) {
   #masthead.background-image-header {
@@ -346,6 +361,8 @@ a.menu-toggle {
     font-size: 1rem; } }
 
 @media only screen and (max-width: 64em) {
+  div#local-title {
+    margin-top: 1rem; }
   .off-canvas-wrap .menu li {
     display: block; }
     .off-canvas-wrap .menu li.has-dropdown > a::after {
