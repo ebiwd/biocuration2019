@@ -2,7 +2,7 @@
     <div class="masthead-inner">
         <div class="row">
             <!-- local-title -->
-            <div class="columns medium-4 small-8" id="local-title">
+            <div class="columns large-5 medium-8 small-10" id="local-title">
                 {% if page.header_branding %}
                     <h1 class="main-brand region-header-branding">
                         {{ page.header_branding }}
@@ -10,44 +10,46 @@
                 {% endif %}
             </div>
             <!-- /local-title -->
-            <div class="column medium-8 no-horz-padding hidden small-4" id="main-menu-wrapper">
-                <!-- local-nav -->
-                <nav class="show-for-large-up">
-                    {% if page.main_menu %}
-                        {{ page.main_menu }}
-                    {% endif %}
+            <div class="column large-7 show-for-large-up no-horz-padding small-4" id="main-menu-wrapper">
+                <div class="inner-wrapper hidden">
+                    <!-- local-nav -->
+                    <nav class="show-for-large-up">
+                        {% if page.main_menu %}
+                            {{ page.main_menu }}
+                        {% endif %}
 
-                    {% if show_account_info %}
-                        <ul class="dropdown menu float-right" data-description="tasks">
-                            {% if logged_in %}
-                                <li>
-                                    <a href="{{ path('user.page') }}">{{ 'My Account'|t }}</a>
-                                </li>
-                                <li>
-                                    <a href="{{ path('user.logout') }}">
-                                        <span class="icon icon-common" data-icon="&#x2f5;"></span>
-                                        {{ 'Logout'|t }}</a>
-                                </li>
-                            {% else %}
-                                <li>
-                                    <a href="{{ path('user.login') }}">
-                                        <span class="icon icon-common" data-icon="&#x2f5;"></span>
-                                        {{ 'Login'|t }}</a>
-                                </li>
-                                <li>
-                                    <a href="{{ path('user.register') }}">{{ 'Sign Up'|t }}</a>
-                                </li>
-                            {% endif %}
-                        </ul>
-                    {% endif %}
+                        {% if show_account_info %}
+                            <ul class="dropdown menu float-right" data-description="tasks">
+                                {% if logged_in %}
+                                    <li>
+                                        <a href="{{ path('user.page') }}">{{ 'My Account'|t }}</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('user.logout') }}">
+                                            <span class="icon icon-common" data-icon="&#x2f5;"></span>
+                                            {{ 'Logout'|t }}</a>
+                                    </li>
+                                {% else %}
+                                    <li>
+                                        <a href="{{ path('user.login') }}">
+                                            <span class="icon icon-common" data-icon="&#x2f5;"></span>
+                                            {{ 'Login'|t }}</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('user.register') }}">{{ 'Sign Up'|t }}</a>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        {% endif %}
 
-                </nav>
-                <!-- /local-nav -->
+                    </nav>
+                 <!-- /local-nav -->
+                </div>
             </div>
 
             {# Mobile Menu #}
-            <div class="columns small-4 hide-for-large-only padding-vertical-15 text-center float-right">
-              <a class="menu-toggle"><i class="icon icon-functional" data-icon="M" data-toggle data-hide-for="large" data-responsive-toggle="expand-menu"></i></a>
+            <div class="columns menu-toggle-wrapper large-4 medium-4 small-2 hide-for-large-up padding-vertical-15 text-center float-right">
+              <a class="menu-toggle"><i class="icon icon-functional" data-icon="M" data-toggle data-hide-for="large" data-show-for="medium" data-responsive-toggle="expand-menu"></i></a>
             </div>
             {% if page.header %}
                 <div class="column small-12 region-header">

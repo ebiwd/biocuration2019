@@ -19,7 +19,7 @@
       });
 
       // Show menu after page load.
-      jQuery("#main-menu-wrapper").removeClass("hidden");
+      jQuery("#main-menu-wrapper .inner-wrapper").removeClass("hidden");
 
       // Toggle Menu.
       jQuery("[data-responsive-toggle]").once().click(function () {
