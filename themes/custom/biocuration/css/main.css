@@ -293,6 +293,9 @@ h3.block-title {
   .event-register .event-register-link i {
     padding: 0 15px; }
 
+ul.dropdown.submenu.is-dropdown-submenu li {
+  width: 100%; }
+
 div.expand-menu {
   width: 100%;
   height: 100%;
