@@ -296,7 +296,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: "<br><br>\n<div class=\"text-center\">Support Biocuration 2019! Find out how to become a conference sponsor.</div>\n<div class=\"more-link\"><a href=\"/sponsors\">Become a Sponsor </a></div>"
+            value: "<br><br>\n<div class=\"text-center\">Support Biocuration 2019! Find out how to become a conference sponsor.</div>\n<div class=\"more-link\"><a href=\"/sponsors\"> Sponsor Biocuration 2019 </a></div>"
             format: full_html
           plugin_id: text
     cache_metadata:
